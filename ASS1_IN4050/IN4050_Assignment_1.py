@@ -70,11 +70,11 @@ import numpy as np
 # %matplotlib inline
 np.random.seed(57)
 #Map of Europe
-europe_map = plt.imread('C:/IN4050/assignment1_2024/map.png')
+europe_map = plt.imread("map.png")
 
-#C:\IN4050\assignment1_2024
+
 #europe_map =plt.imread('map.png')
-#europe_map = plt.imread('C:/Users/Malin Storm/Desktop/IN4050/assignment1/Assignment1/map.png') 
+ 
 
 #Lists of city coordinates
 city_coords = {
@@ -90,7 +90,7 @@ city_coords = {
 #Helper code for plotting plans
 #First, visualizing the cities.
 import csv
-with open("C:/IN4050/assignment1_2024/european_cities.csv", "r") as f:
+with open("european_cities.csv", "r") as f:
     data = list(csv.reader(f, delimiter=';'))
     cities = data[0]
 
